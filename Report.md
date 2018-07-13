@@ -19,4 +19,9 @@ Murder rate by state
 We note the larger the state to state variability by generating a
 barplot showing the murder rate by state:
 
+    murders %>% mutate(abb = reorder(abb, rate)) %>%
+      ggplot(aes(abb, rate)) +
+      geom_bar(width = 0.5, stat = "identity", color = "black") +
+      coord_flip()
+
 ![](Report_files/figure-markdown_strict/murder-rate-by-state-1.png)
