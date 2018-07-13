@@ -9,7 +9,7 @@ output: md_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Report on Gun Murders
+Report on Gun Murders
 ================
 
 ## Introduction

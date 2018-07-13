@@ -1,5 +1,5 @@
-\#\# Report on Gun Murders
-==========================
+Report on Gun Murders
+=====================
 
 Introduction
 ------------
