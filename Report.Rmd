@@ -19,13 +19,11 @@ We are going to use the following library:
 library(tidyverse)
 ```
 
-
 and load the data we already wrangled:
 
 ```{r}
 load("rda/murders.rda")
 ```
-
 
 ## Murder rate by state
 
