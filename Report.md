@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-Introduction
-------------
-
-This is a report on 2010 gun murder rates obtained from FBI reports. The
-original data was obtained from [this Wikipedia
-page](https://en.wikipedia.org/wiki/Murder_in_the_United_States_by_state).
-
-We are going to use the following library:
-
-    library(tidyverse)
-
-and load the data we already wrangled:
-
-    load("rda/murders.rda")
-
-Murder rate by state
---------------------
-
-We note the larger the state to state variability by generating a
-barplot showing the murder rate by state:
-
-    murders %>% mutate(abb = reorder(abb, rate)) %>%
-      ggplot(aes(abb, rate)) +
-      geom_bar(width = 0.5, stat = "identity", color = "black") +
-      coord_flip()
-
-![](Report_files/figure-markdown_strict/murder-rate-by-state-1.png)
-=======
 Introduction
 ------------
 
@@ -49,4 +20,3 @@ We note the larger the state to state variability by generating a
 barplot showing the murder rate by state:
 
 ![](Report_files/figure-markdown_strict/murder-rate-by-state-1.png)
->>>>>>> afb4ce8c73f968f859ea45b3de94138c5205bc78
